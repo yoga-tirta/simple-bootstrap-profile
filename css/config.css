@@ -1,0 +1,259 @@
+body {
+	overflow-x: hidden;
+}
+
+.content-carousel {
+	position:absolute;
+	transform: translate(-50%,-50%);
+	top:50%;
+	left:50%;
+	color:white;
+	text-align:center;
+}
+
+.own-btn-2 {
+	color:white;
+	border: 2px solid white;
+	background:transparent;
+	padding: 10px 20px;
+	border-radius:4px;
+}
+
+.own-btn-1 {
+	color:white;
+	border: 2px solid #3598db;
+	background:#3598db;
+	padding: 10px 20px;
+	border-radius:4px;
+}
+
+.own-btn-3 {
+	color:#646464;
+	border: 2px solid #646464;
+	background:transparent;
+	padding: 10px 20px;
+	border-radius:4px;
+}
+
+.testimonial {
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top:50%;
+	left:50%;
+	color:white;
+	width: 70%
+}
+
+.contact-us {
+	background: #3598db;
+	padding: 30px 20px;
+	text-align: center;
+	color:white;
+	position: relative;
+}
+.circler {
+	position: absolute;
+	padding: 20px;
+	border-radius: 100%;
+	background: #3598db;
+	transform: translate(-50%,-50%);
+	top:0;
+	left: 50%;
+}
+.sosmed {
+	border: 2px solid #efefef;
+	border-radius: 100%;
+	padding: 10px 0px;
+	margin-left: 5px;
+	transition: all .5s;
+}
+.sosmed:hover {
+	border: 1px solid red;
+}
+.own-navabar {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	padding: 20px 20px;
+	background: transparent;
+	z-index: 999;
+}
+.menu-overlay {
+	position: fixed;
+	background: rgba(52,152,219,0.6);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	transition: all .5s;
+	transform: scale(0,0);
+}
+
+.menu-overlay ul {
+	position: absolute;
+	color: white;
+	top:50%;
+	left: 50%;
+	font-size: 42px;
+	transform: translate(-50%,-50%);
+	top:50%;
+	left: 50%;
+	text-align: center;
+}
+
+.menu-overlay li {
+	list-style: none;
+	border-bottom: 2px solid white;
+	padding: 10px;
+}
+.menu-overlay li:last-child {
+	border-bottom: none;
+}
+.close {
+	position: absolute;
+	right: 10%;
+	top: 10%;
+	color:white;
+	z-index: 99999;
+}
+.robot-hover {
+	position: relative;
+}
+
+.overlay-robot {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	background: rgba(52,152,219,0.6);
+	transition: all .5s;
+}
+
+.overlay-robot:hover {
+	opacity: 1;
+}
+
+.overlay-robot-content {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.overlay-robot-content h3 {
+	color: white;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.overlay-robot-content div {
+	position: absolute;
+	background: rgba(52,152,219,1);
+	padding: 5px 10px;
+	color: white;
+	text-align: center;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+
+.overlay-robot-content div:hover {
+	cursor: pointer;
+}
+
+.robot-overlay-clicked {
+	background: rgba(0,0,0,.4);
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	top:0;
+	transform: scale(0,0);
+	left: 0;
+	transition: all .5s
+}
+
+.overlay-content {
+	position: absolute;
+	transform: translate(-50%,-50%);
+	background: white;
+	width: 50%;
+	top:50%;
+	left: 50%;
+	padding: 20px;
+}
+.tutup {
+	float: right;
+	background: black;
+	padding: 10px;
+	color:white;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+
+.tutup:hover {
+	cursor: pointer;
+}
+.bawah-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(52,152,219,.6);
+	transform: scale(0,0);
+	transition: all .5s;
+}
+
+.overlayan:hover .bawah-overlay {
+	transform: scale(1,1);
+}
+
+.bawah-overlay-content {
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top:50%;
+	left:50%;
+}
+
+.bawah-overlay-content button {
+	background: transparent;
+	border: 1px solid white;
+	padding: 10px 20px;
+	color: white;
+	position: relative;
+	overflow: hidden;
+	transition: all .5s;
+}
+
+.bawah-overlay-content button:hover {
+	background: white;
+	color:rgba(52,152,219,1);
+}
+
+.popup {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top:100%;
+	left: 0;
+	background: rgba(0,0,0,.5);
+	z-index: 9999;
+	transition: all .5s;
+}
+.tutup2 {
+	position: absolute;
+	top:10%;
+	right: 10%;
+	color: white;
+	font-size: 32px;
+	z-index: 99999;
+}
+
+.tutup2:hover {
+cursor: pointer;
+}
